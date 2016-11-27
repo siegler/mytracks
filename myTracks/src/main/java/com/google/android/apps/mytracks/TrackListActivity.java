@@ -323,7 +323,7 @@ public class TrackListActivity extends AbstractSendToGoogleActivity
     super.onCreate(savedInstanceState);
 
     if (BuildConfig.DEBUG) {
-      ApiAdapterFactory.getApiAdapter().enableStrictMode();
+//      ApiAdapterFactory.getApiAdapter().enableStrictMode();
     }
 
     myTracksProviderUtils = MyTracksProviderUtils.Factory.get(this);
